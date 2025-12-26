@@ -43,6 +43,7 @@ reinforcement and decay are applied, as required.
 ---
 
 ## Project Structure
+'''
 flowbit-ai-agent/
 ├── data/
 │ ├── invoices.json # Sample extracted invoices
@@ -64,4 +65,4 @@ flowbit-ai-agent/
 ├── package-lock.json # Dependency lock file
 ├── tsconfig.json # TypeScript configuration
 └── README.md # Project documentation
-
+'''
