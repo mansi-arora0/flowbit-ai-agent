@@ -43,26 +43,26 @@ reinforcement and decay are applied, as required.
 ---
 
 ## Project Structure
-'''
-flowbit-ai-agent/
-├── data/
-│ ├── invoices.json # Sample extracted invoices
-│ ├── purchase_orders.json # Reference purchase orders
-│ ├── delivery_notes.json # Delivery notes data
-│ └── human_corrections.json # Human-approved corrections (learning source)
-│
-├── src/
-│ ├── index.ts # Main execution entry point
-│ ├── outputBuilder.ts # Builds final explainable output JSON
-│ │
-│ ├── memory/
-│ │ └── vendorMemory.ts # Vendor-specific memory learning & recall
-│ │
-│ └── utils/
-│ └── dataLoader.ts # JSON file loader utility
-│
-├── package.json # Project metadata & dependencies
-├── package-lock.json # Dependency lock file
-├── tsconfig.json # TypeScript configuration
-└── README.md # Project documentation
-'''
+
+    flowbit-ai-agent/
+    ├── data/
+    │   ├── invoices.json              
+    │   ├── purchase_orders.json      
+    │   ├── delivery_notes.json        
+    │   └── human_corrections.json     
+    │
+    ├── src/
+    │   ├── index.ts                   
+    │   ├── outputBuilder.ts           
+    │   │
+    │   ├── memory/
+    │   │   └── vendorMemory.ts        
+    │   │
+    │   └── utils/
+    │       └── dataLoader.ts         
+    │
+    ├── package.json                 
+    ├── package-lock.json              
+    ├── tsconfig.json                  
+    └── README.md                      
+
